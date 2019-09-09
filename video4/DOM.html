@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="titulo">Hola soy un documento HTMl</h1>
+        <p id="parrafo" class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id optio doloribus ex
+            dolorum dist</p>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fugiat ea possimus obcaecati
+            quam nulla
+            modi adipisci aliquam unde totam
+        </p>
+        <button id="boton" class="btn btn-info">cambiar</button>
+    </div>
+    <script>
+        // var h1 = document.getElementById("titulo");
+        // console.log(h1.innerHTML);
+
+        // h1.style.color = "red";
+        // h1.style.background = "blue";
+
+        // var parrafo = document.getElementById("parrafo");
+
+
+        // var boton = document.getElementById("boton");
+
+        // function cambiar() {
+        //     parrafo.style.color = "olive";
+        // }
+
+        // boton.onclick = cambiar;
+
+        // var parrafo = document.querySelectorAll('p');
+        // console.log(parrafo[1]);
+
+        var boton = document.getElementById('boton');
+
+        boton.addEventListener('mouseover', function () {
+            console.log('Me pasastes por encima');
+        });
+        boton.addEventListener('mouseout', function () {
+            console.log('adios raton');
+        });
+    </script>
+</body>
+
+</html>
